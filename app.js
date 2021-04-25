@@ -59,7 +59,7 @@ function promptProject() {
 
     function viewEmployees(res) {
         //function to view employees
-        const sql = `SELECT * FROM employee_tracker`;
+        const sql = `SELECT * FROM departments`;
         db.query(sql,(err, rows) => {
             if (err) {
                 console.log(err)
